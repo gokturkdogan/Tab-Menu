@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400&family=Lato:wght@300&family=Nunito:wght@300;400&family=Roboto:wght@100;300&family=Ubuntu:wght@300;400;700&family=Zen+Maru+Gothic:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/scss/main.css">
+    <title>Tab-Menu</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="tabMenu">
+            <div class="tabMenu__tab">
+                <button class="tabMenu__link" onclick="openTab(event, 'tab1')">TAB ONE</button>
+                <button class="tabMenu__link" onclick="openTab(event, 'tab2')">TAB TWO</button>
+                <button class="tabMenu__link" onclick="openTab(event, 'tab3')">TAB THREE</button>
+                <button class="tabMenu__link" onclick="openTab(event, 'tab4')">TAB FOUR</button>
+            </div>
+            <div id="tab1" class="tabMenu__display">
+                <div class="tabMenu__item">
+                    <div class="tabMenu__image">
+                        <img src="assets/images/default.jpg">
+                    </div>
+                    <div class="tabMenu__content">
+                        <h5>SERVICE ONE</h5>
+                        <p>An excellent way of preparing a project's wireframe and presenting it to the customer before
+                            thinking of the graphic design.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab2" class="tabMenu__display">
+                <div class="tabMenu__item">
+                    <div class="tabMenu__image">
+                        <img src="assets/images/default.jpg">
+                    </div>
+                    <div class="tabMenu__content">
+                        <h5>SERVICE TWO</h5>
+                        <p>An excellent way of preparing a project's wireframe and presenting it to the customer before
+                            thinking of the graphic design.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="tab3" class="tabMenu__display">
+                <div class="tabMenu__item">
+                    <div class="tabMenu__image">
+                        <img src="assets/images/default.jpg">
+                    </div>
+                    <div class="tabMenu__content">
+                        <h5>SERVICE THREE</h5>
+                        <p>An excellent way of preparing a project's wireframe and presenting it to the customer before
+                            thinking of the graphic design.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="tab4" class="tabMenu__display">
+                <div class="tabMenu__item">
+                    <div class="tabMenu__image">
+                        <img src="assets/images/default.jpg">
+                    </div>
+                    <div class="tabMenu__content">
+                        <h5>SERVICE FOUR</h5>
+                        <p>An excellent way of preparing a project's wireframe and presenting it to the customer before
+                            thinking of the graphic design.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="assets/js/menu.js"></script>
+</body>
+
+</html>
