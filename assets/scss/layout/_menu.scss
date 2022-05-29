@@ -1,0 +1,65 @@
+.tabMenu {
+    width: 615px;
+
+    &__tab {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid $btnactive;
+    }
+
+    &__link {
+        font-size: 0.75rem;
+        color: $btnfont;
+        display: block;
+        border: 1px solid $btnborder;
+        background-color: $btnback;
+        padding: 13px 20px;
+        width: 140px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        letter-spacing: 2px;
+        cursor: pointer;
+    }
+
+    &__display {
+        display: none;
+    }
+
+    &__item {
+        display: flex;
+        border: 1px solid $btnborder;
+        padding-top: 32px;
+        padding-right: 90px;
+        padding-bottom: 35px;
+        padding-left: 41px;
+    }
+
+    &__image {
+        margin-right: 30px;
+
+        img {
+            width: 110px;
+        }
+    }
+
+    &__content {
+        h5 {
+            letter-spacing: 4px;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            margin-top: 0px;
+            font-size: 0.9rem;
+            line-height: 20px;
+            color: $pfont;
+        }
+    }
+
+    .-active {
+        background-color: $btnactive;
+        color: #FFF;
+        border-bottom: 1px solid $btnactive;
+    }
+}
